@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CDAC_Prject/static/css/main.61d9e767.css",
+    "main.js": "/CDAC_Prject/static/js/main.875a9a9b.js",
+    "static/media/LOGO.png": "/CDAC_Prject/static/media/LOGO.ead3ba143cd49081bd3b.png",
+    "index.html": "/CDAC_Prject/index.html",
+    "main.61d9e767.css.map": "/CDAC_Prject/static/css/main.61d9e767.css.map",
+    "main.875a9a9b.js.map": "/CDAC_Prject/static/js/main.875a9a9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61d9e767.css",
+    "static/js/main.875a9a9b.js"
+  ]
+}
