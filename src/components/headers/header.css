@@ -1,0 +1,79 @@
+/* *{
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    height: 40px;
+    vertical-align: middle;
+}
+.headerDiv{
+    display: flex;
+    padding-inline: 4%;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    
+}
+
+.userBtnDiv{
+    display: flex;
+    gap: 20px;
+} */
+
+
+/* General reset for all elements */
+* {
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the logo */
+#logo {
+    height: 40px;
+    vertical-align: middle;
+}
+
+/* Header container styling */
+.headerDiv {
+    display: flex;
+    padding:  8px 4%;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+/* User button container (for future buttons) */
+/* .userBtnDiv {
+    display: flex;
+    gap: 20px;
+} */
+
+/* Scrolling text styling */
+.scrolling-text {
+    white-space: nowrap;  /* Prevents the text from wrapping */
+    /* overflow: hidden;     Hides the overflow of the text */
+    width: 100%;           /* Sets the width of the scrolling text container */
+    margin-left: 20px;    /* Adjust space between the logo and the text */
+    display: inline-block;
+    animation: scroll-left 30s linear infinite;  /* Animation for scrolling */
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+/* Keyframes for scrolling effect */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);  
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+

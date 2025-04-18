@@ -1,0 +1,53 @@
+[
+    {
+      "name": "calculateSum",
+      "return": "int",
+      "parent": "MathOperations"
+    },
+    {
+      "name": "findMax",
+      "return": "int",
+      "parent": "ArrayUtils"
+    },
+    {
+      "name": "convertToString",
+      "return": "string",
+      "parent": "StringOperations"
+    },
+    {
+      "name": "sortArray",
+      "return": "array",
+      "parent": "ArrayUtils"
+    },
+    {
+      "name": "fetchData",
+      "return": "Promise",
+      "parent": "APIHandler"
+    },
+    {
+      "name": "loginUser",
+      "return": "boolean",
+      "parent": "AuthService"
+    },
+    {
+      "name": "logoutUser",
+      "return": "void",
+      "parent": "AuthService"
+    },
+    {
+      "name": "getCurrentDate",
+      "return": "Date",
+      "parent": "DateUtils"
+    },
+    {
+      "name": "validateEmail",
+      "return": "boolean",
+      "parent": "ValidationService"
+    },
+    {
+      "name": "capitalizeText",
+      "return": "string",
+      "parent": "StringOperations"
+    }
+  ]
+  

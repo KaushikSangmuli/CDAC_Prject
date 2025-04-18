@@ -1,0 +1,155 @@
+[
+    {
+      "name": "calculateSum",
+      "return": "int",
+      "parent": "MathOperations",
+      "body": [
+        {
+          "type": "int",
+          "name": "a",
+          "size": "10"
+        },
+        {
+          "type": "float",
+          "name": "b",
+          "size": "29.4"
+        }
+      ]
+    },
+    {
+      "name": "findMax",
+      "return": "int",
+      "parent": "ArrayUtils",
+      "body": [
+        {
+          "type": "int",
+          "name": "max",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "i",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        }
+      ]
+    },
+    {
+      "name": "convertToString",
+      "return": "string",
+      "parent": "StringOperations",
+      "body": [
+        {
+          "type": "string",
+          "name": "str",
+          "size": "null"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        }
+      ]
+    },
+    {
+      "name": "calculateSum",
+      "return": "int",
+      "parent": "MathOperations",
+      "body": [
+        {
+          "type": "int",
+          "name": "a",
+          "size": "10"
+        },
+        {
+          "type": "float",
+          "name": "b",
+          "size": "29.4"
+        }
+      ]
+    },
+    {
+      "name": "findMax",
+      "return": "int",
+      "parent": "ArrayUtils",
+      "body": [
+        {
+          "type": "int",
+          "name": "max",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "i",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        }
+      ]
+    },
+    {
+      "name": "convertToString",
+      "return": "string",
+      "parent": "StringOperations",
+      "body": [
+        {
+          "type": "string",
+          "name": "str",
+          "size": "null"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        },
+        {
+          "type": "int",
+          "name": "number",
+          "size": "0"
+        }
+      ]
+    }
+  ]
+  
