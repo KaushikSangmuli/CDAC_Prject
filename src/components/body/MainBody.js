@@ -46,13 +46,18 @@ const MainBody = () => {
             {showPopup && (
                 <div className="popup-overlay">
                     <div className="popup-box">
-                        <h3>🚧 Maintenance Notice</h3>
-                        <p>
-                            This website is currently under maintenance, so the full version is temporarily unavailable. 
-                            <br />
-                            You are currently viewing a beta version.
-                        </p>
-                        <button onClick={() => setShowPopup(false)}>Continue to Beta</button>
+                        <h3>👋 Welcome to the Memory Visualizer Demo</h3>
+<p>
+    This is the original C version of the project, running a pre-loaded sample program.
+    Use the up/down arrows to step through it line by line and watch the call stack,
+    variables, and memory change.
+    <br /><br />
+    A rebuilt Java version with a live execution engine is in progress.{" "}
+    <a href="https://github.com/KaushikSangmuli/java-visualizer" target="_blank" rel="noopener noreferrer">
+        View the Java version on GitHub
+    </a>
+</p>
+<button onClick={() => setShowPopup(false)}>Start the Demo</button>
                     </div>
                 </div>
             )}
